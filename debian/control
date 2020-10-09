@@ -1,8 +1,9 @@
 Source: containerd
 Section: admin
 Priority: optional
-Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
-Uploaders: Tianon Gravi <tianon@debian.org>,
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
+XSBC-Pexip-Original-Uploaders: Tianon Gravi <tianon@debian.org>,
            Tim Potter <tpot@hpe.com>,
            Shengjing Zhu <zhsj@debian.org>,
 Build-Depends: debhelper-compat (= 13),
@@ -67,6 +68,7 @@ Vcs-Git: https://salsa.debian.org/go-team/packages/containerd.git
 Vcs-Browser: https://salsa.debian.org/go-team/packages/containerd
 XS-Go-Import-Path: github.com/containerd/containerd
 Testsuite: autopkgtest-pkg-go
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ bullseye
 
 Package: containerd
 Architecture: linux-any
